@@ -59,7 +59,7 @@ Before deploying, update these files with your information:
 #### `composer.json`
 ```json
 {
-    "name": "your-username/laravel-phone-auth",
+         "name": "mohammed-abd-razaq/laravel-phone-auth",
     "authors": [
         {
             "name": "Your Real Name",
@@ -69,9 +69,9 @@ Before deploying, update these files with your information:
         }
     ],
     "support": {
-        "issues": "https://github.com/your-username/laravel-phone-auth/issues",
-        "source": "https://github.com/your-username/laravel-phone-auth",
-        "docs": "https://github.com/your-username/laravel-phone-auth#readme"
+                 "issues": "https://github.com/mohammed-abd-razaq/laravel-phone-auth/issues",
+         "source": "https://github.com/mohammed-abd-razaq/laravel-phone-auth",
+         "docs": "https://github.com/mohammed-abd-razaq/laravel-phone-auth#readme"
     }
 }
 ```
@@ -79,7 +79,7 @@ Before deploying, update these files with your information:
 #### `README.md`
 Update the installation command:
 ```bash
-composer require your-username/laravel-phone-auth
+composer require mohammed-abd-razaq/laravel-phone-auth
 ```
 
 ### 5. **Create First Release**

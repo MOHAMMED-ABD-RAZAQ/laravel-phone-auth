@@ -25,7 +25,7 @@ git add .
 git commit -m "feat: initial release of Laravel Phone Auth Package"
 
 # Add remote (replace with your GitHub username)
-git remote add origin https://github.com/MOHAMMED-ABD-RAZAQ/laravel-phone-auth.git
+git remote add origin https://github.com/mohammed-abd-razaq/laravel-phone-auth.git
 
 # Push to GitHub
 git push -u origin main
@@ -45,7 +45,7 @@ chmod +x deploy.sh
 - ✅ Check GitHub Actions tab
 - ✅ Verify tests are passing
 - ✅ Confirm release was created
-- ✅ Test installation: `composer require MOHAMMED-ABD-RAZAQ/laravel-phone-auth`
+- ✅ Test installation: `composer require mohammed-abd-razaq/laravel-phone-auth`
 
 ## 🎯 What You Get
 

@@ -24,7 +24,7 @@ A professional Laravel package for phone-based authentication with OTP verificat
 ### 1. Install the Package
 
 ```bash
-composer require your-vendor/laravel-phone-auth
+composer require mohammed-abd-razaq/laravel-phone-auth
 ```
 
 ### 2. Publish Configuration
