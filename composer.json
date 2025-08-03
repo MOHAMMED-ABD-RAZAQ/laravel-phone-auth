@@ -1,6 +1,7 @@
 {
-    "name": "your-vendor/laravel-phone-auth",
+    "name": "MOHAMMED-ABD-RAZAQ/laravel-phone-auth",
     "description": "A professional Laravel package for phone-based authentication with OTP verification, following clean architecture principles and Laravel best practices.",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -15,9 +16,10 @@
     ],
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your.email@example.com",
-            "homepage": "https://github.com/your-username"
+            "name": "Mohammed Abd Razaq",
+            "email": "mohammedalrazaq61@gmail.com",
+            "homepage": "https://github.com/MOHAMMED-ABD-RAZAQ",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -46,6 +48,11 @@
                 "Package\\Auth\\Providers\\AuthPackageServiceProvider"
             ]
         }
+    },
+    "support": {
+        "issues": "https://github.com/MOHAMMED-ABD-RAZAQ/laravel-phone-auth/issues",
+        "source": "https://github.com/MOHAMMED-ABD-RAZAQ/laravel-phone-auth",
+        "docs": "https://github.com/MOHAMMED-ABD-RAZAQ/laravel-phone-auth#readme"
     },
     "config": {
         "sort-packages": true,
