@@ -1,0 +1,67 @@
+{
+  "name": "packages/auth",
+  "description": "A professional Laravel package for phone-based authentication with OTP verification, following clean architecture principles and Laravel best practices.",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "authentication",
+    "phone-auth",
+    "otp",
+    "sms",
+    "password-reset",
+    "api",
+    "clean-architecture"
+  ],
+  "authors": [
+    {
+      "name": "Mohammed Abd Razaq",
+      "email": "mohammedalrazaq61@gmail.com",
+              "homepage": "https://github.com/mohammed-abd-razaq",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^9.0|^10.0|^11.0|^12.0",
+    "laravel/sanctum": "^3.0|^4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0|^10.0",
+    "orchestra/testbench": "^7.0|^8.0",
+    "mockery/mockery": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Package\\Auth\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Package\\Auth\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Package\\Auth\\Providers\\AuthPackageServiceProvider"
+      ]
+    }
+  },
+      "support": {
+        "issues": "https://github.com/mohammed-abd-razaq/laravel-phone-auth/issues",
+        "source": "https://github.com/mohammed-abd-razaq/laravel-phone-auth",
+        "docs": "https://github.com/mohammed-abd-razaq/laravel-phone-auth#readme"
+    },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  }
+}
